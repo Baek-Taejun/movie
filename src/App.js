@@ -1,13 +1,9 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
-import { RecoilRoot } from 'recoil';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { RecoilRoot } from "recoil";
 import Home from "./router/Home";
 import Group from "./router/Group";
-import Detail from './router/Detail';
-import Search from './router/Search';
+import Detail from "./router/Detail";
+import Search from "./router/Search";
 import Navbar from "./component/Navbar";
 
 function App() {

@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Making Web App with React (Nomad Coder)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center'>
+<img width="1348" alt="스크린샷 2021-12-19 오후 1 38 17" src="https://user-images.githubusercontent.com/79993356/146664057-c2ec96ef-9b9f-45bc-bbf7-3fb236f07409.png" >
+</p>
 
-## Available Scripts
+<p align='center'>
+    <a href="https://keinn51.github.io/React_JS_Movie_Web_Nomad">Published Webpage</a>
+</p>
 
-In the project directory, you can run:
+## 🛠 Using Skill
 
-### `npm start`
+<p align='center'>
+    <img src="https://img.shields.io/badge/React-^17.0.2-blue?logo=React"/>
+    <img src="https://img.shields.io/badge/node.js-v16.13.2-green?logo=Node.js"/>
+    <img src="https://img.shields.io/badge/recoil-v^0.5.2-aaa?logo=Coil"/>
+    <img src="https://img.shields.io/badge/react_dom-^17.0.2-blueviolet?logo=ReactOS"/>
+    <img src="https://img.shields.io/badge/react_router_dom-^6.2.1-critical?logo=React Table"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💁‍♂️ Introducing Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### the movie recommending web for users!
+### ⭐️ I develop this web on my own after taking class⭐️
 
-### `npm test`
+#### 🗂 Category recommending
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> - You can see recommended movies with various categories like "romance", "music", "animation"...
 
-### `npm run build`
+#### 🔎 Searching movie
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> - You can search for a movie you want by using search bar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 🔥 High rating movie showing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> - You can see movies ordered by rating.
 
-### `npm run eject`
+## 📁 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project includes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Nomad_Steps : a folder in which the class codes are organized.
+- my_app : **My own Develop** after taking a class from a nomad coder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+you can meet Detail explanation in my-app folder!!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💡 Major Implement
 
-## Learn More
+- [Move to wiki!](https://github.com/keinn51/React_JS_Movie_Web_Nomad/wiki#3-major-implement)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤸‍♀️ How To Use?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### start
 
-### Code Splitting
+```
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### build
 
-### Analyzing the Bundle Size
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### deploy
 
-### Making a Progressive Web App
+Edit the value of "hompage" in package.json that you wanna show your project. then,
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm run deploy
+```
 
-### Advanced Configuration
+## 🔖 Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### The class link is here
 
-### Deployment
+###### [ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1337" alt="nomad" src="https://user-images.githubusercontent.com/79993356/146664461-dda5c9ae-d4e7-4035-82c8-959bb47bcdaa.png">

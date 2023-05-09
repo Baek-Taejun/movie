@@ -1,4 +1,4 @@
-# Making Web App with React (Nomad Coder)
+# Making Web App with React
 
 <p align='center'>
 <img width="1787" alt="스크린샷 2023-05-09 오후 2 58 18" src="https://user-images.githubusercontent.com/126327414/237007269-df94cd82-a1ae-467f-bd83-b7737d7c6997.png">

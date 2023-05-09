@@ -1,7 +1,8 @@
 # Making Web App with React (Nomad Coder)
 
 <p align='center'>
-<img width="1348" alt="스크린샷 2021-12-19 오후 1 38 17" src="https://user-images.githubusercontent.com/79993356/146664057-c2ec96ef-9b9f-45bc-bbf7-3fb236f07409.png" >
+<img width="1787" alt="스크린샷 2023-05-09 오후 2 58 18" src="https://user-images.githubusercontent.com/126327414/237007269-df94cd82-a1ae-467f-bd83-b7737d7c6997.png">
+
 </p>
 
 <p align='center'>

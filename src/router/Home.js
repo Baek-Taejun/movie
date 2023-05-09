@@ -1,3 +1,10 @@
+import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
+import Slide from "../component/Slide";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCompactDisc } from "@fortawesome/free-solid-svg-icons";
+import { Group_obj, Group_key_arr } from "../atom/NavList";
+
 function Home() {
   return (
     <div>
@@ -29,13 +36,6 @@ function Home() {
           </div>
         );
       })}
-      <div className={styles.footer}>
-        <div className={styles.copyright}>
-          <h3 className={styles.copyright_letter}>
-            copyright belongs to Kyungsle
-          </h3>
-        </div>
-      </div>
     </div>
   );
 }

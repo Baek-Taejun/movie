@@ -1,4 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import MovieSearch from "../render/MovieSearch";
+import styles from "./Search.module.css";
+import Load from "../component/Load";
 
 function Search() {
   const { search } = useParams();

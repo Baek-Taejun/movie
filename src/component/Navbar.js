@@ -8,14 +8,15 @@ import { useState } from "react";
 function Navbar() {
   const [search, setSearch] = useState(null);
 
-  //내가 클릭했을때 이벤트
+  // Event when u touch the Search Bar!
   const searchClick = (event) => {
     setSearch(event.target.value);
   };
 
   return (
+    // It's the Navigation Bar, always above the container!!
     <div className={styles.container}>
-      {/* page name */}
+      {/*  Page Name */}
       <div className={styles.pageName}>
         <Link to={"/"}>JunFLEX</Link>
       </div>
@@ -31,10 +32,9 @@ function Navbar() {
             </div>
           );
         })}
-
-        {/* Metty Chrismas! */}
-        <div className={styles.MerryChristmas}>
-          <Link to={`/search/christmas`}>Christmas</Link>
+        {/* 🎄 Merry Christmas! */}
+        <div className={styles.MerryChristMas}>
+          <Link to={`/search/christmas`}>Christmas🎄</Link>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ function Navbar() {
       <div className={styles.searchBar}>
         <div>
           <form>
-            {/*Search text */}
+            {/* Search Text */}
             <input
               type="text"
               placeholder="Search Movie!"
@@ -52,6 +52,7 @@ function Navbar() {
                 setSearch("");
               }}
             ></input>
+            {/* Search Button */}
             <Link to={`/search/${search}`}>
               <button>
                 <FontAwesomeIcon icon={faSearch} size="lg" />

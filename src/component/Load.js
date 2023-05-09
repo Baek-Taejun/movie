@@ -1,3 +1,5 @@
+import styles from "./Load.module.css";
+
 function Load() {
   return (
     <div className={styles.Load}>
@@ -5,3 +7,5 @@ function Load() {
     </div>
   );
 }
+
+export default Load;

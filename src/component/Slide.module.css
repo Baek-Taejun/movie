@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  
 }
 
 /* 920px : (230 * 4) => rendering! , 475px : 345px + letters */

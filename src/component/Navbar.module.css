@@ -7,9 +7,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(237,239,233);
+  background-color: rgb(233, 235, 239);
   z-index: 10;
 }
+
 
 /* Have to Seperate because the Search bar has a tag! */
 .GroupLink a
@@ -23,14 +24,16 @@ font-size: 20px;
 /* text shadow : text Shadowing with 5px (width) 5px (height) color */
 .pageName {
 position: relative;
-top: 20%;
+top: 30%;
 font-size: 20px;
-text-shadow: 5px 5px #c7cdd4;
+font-weight: 600;
+
+
 }
 
 /* When you touch the pageName, it would be bigger */
 .pageName:hover {
-transform: scale(1.1);
+transform: scale(1.5);
 }
 
 .GroupLink,
@@ -39,11 +42,12 @@ display: flex;
 flex-direction: row;
 align-content: center;
 text-shadow: 5px 5px #c7cdd4;
+
 }
 
 /* When you touch the GroupLink, it would be bigger */
 .Link_sep:hover {
-transform: scale(1.1);
+transform: scale(1.5);
 }
 
 /* Merry Christmas~ */

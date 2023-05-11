@@ -10,7 +10,7 @@
   }
   
   .Santacontainer::after{
-    background-image: url("./Img/default_back_Santa.jpeg");
+    background-image: url("./Img/default_back.jpeg");
     content: "";
     opacity: 0.7;
     position: fixed;

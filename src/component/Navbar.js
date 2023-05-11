@@ -33,9 +33,9 @@ function Navbar() {
           );
         })}
         {/* 🎄 Merry Christmas! */}
-        <div className={styles.MerryChristMas}>
+        {/* <div className={styles.MerryChristMas}>
           <Link to={`/search/christmas`}>Christmas🎄</Link>
-        </div>
+        </div> */}
       </div>
 
       {/* Search Bar */}

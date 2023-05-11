@@ -69,35 +69,35 @@ function Search() {
     }
   }, [movies]);
 
-  return (
-    <div
-      className={
-        search.toLowerCase() === "christmas"
-          ? styles.Santacontainer
-          : styles.container
-      }
-    >
-      {loading ? (
-        <Load />
-      ) : (
-        <div className={styles.movies}>
-          {movArr.map((movie) => (
-            <MovieSearch
-              key={movie.id}
-              id={movie.id}
-              title={movie.title}
-              coverImg={movie.medium_cover_image}
-              rating={movie.rating}
-              runtime={movie.runtime}
-              summary={movie.summary}
-              year={movie.year}
-              santa={search}
-            />
-          ))}
-        </div>
-      )}
-    </div>
-  );
+  // return (
+  //   <div
+  //     className={
+  //       search.toLowerCase() === "christmas"
+  //         ? styles.Santacontainer
+  //         : styles.container
+  //     }
+  //   >
+  //     {loading ? (
+  //       <Load />
+  //     ) : (
+  //       <div className={styles.movies}>
+  //         {movArr.map((movie) => (
+  //           <MovieSearch
+  //             key={movie.id}
+  //             id={movie.id}
+  //             title={movie.title}
+  //             coverImg={movie.medium_cover_image}
+  //             rating={movie.rating}
+  //             runtime={movie.runtime}
+  //             summary={movie.summary}
+  //             year={movie.year}
+  //             santa={search}
+  //           />
+  //         ))}
+  //       </div>
+  //     )}
+  //   </div>
+  // );
 }
 
 export default Search;

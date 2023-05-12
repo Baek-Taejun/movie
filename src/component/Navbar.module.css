@@ -51,10 +51,10 @@ transform: scale(1.5);
 }
 
 /* Merry Christmas~ */
-.MerryChristMas a {
+/* .MerryChristMas a {
 color: green;
 text-shadow: 3px 3px #fcadad;
-}
+} */
 
 /* A tag's color which clicked will be green with no underline (red when hover)*/
 .MerryChristMas a:visited { color: green; text-decoration: none;}
